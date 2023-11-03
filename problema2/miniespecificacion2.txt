@@ -1,0 +1,20 @@
+1.  Inicio
+2.  producto, i[0-n]
+3.  precioProducto, d[0-n]
+4.  precioUnitario, d[0-n]
+5.  precioDescuento, d[0-n]
+6.  precioProducto <-- 13.00
+7.  <<"Vemos que te interesó nuestra nueva camisa."
+8.  <<"Está disponible solamente en color negro, tiene un diseño de tipo callejero
+    acompañado de un estampado de Hallowen, posee cuello redondo con mangas
+    cortas de tipo normal. Su tejido compone de una tela ligeramente elástica de 100% Poliester."
+9.  <<"Ingrese el valor de unidades que desea comprar"
+10. >>producto
+11. precioUnitario <-- producto * precioProducto
+12. Si producto >= 50 entonces
+13. 	precioDescuento <-- precioUnitario - 0.15
+14. 	<<"Debe cancelar " + precioDescuento
+15. De lo contrario
+16. 	<<"Debe cancelar " + precioUnitario
+17. FinSi
+18. Fin
