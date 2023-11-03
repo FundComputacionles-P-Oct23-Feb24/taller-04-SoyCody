@@ -1,0 +1,20 @@
+Planilla de luz
+1.  Inicio
+2.  costokv, d[0-n]
+3.  kv, d[0-n]
+4.  edad, i[0-n]
+5.  total, d[0-n]
+6.  valor_total, d[0-n]
+7.  <<"Ingrese el valor de costo de Kilovatio por hora"
+8.  >>costokv
+9.  <<"Ingrese la cantidad de consumo de Kilovatios"
+10. >>kv
+11. <<"Ingrese su edad"
+12. >>edad
+13. total <-- costokv*kv
+14. si edad >=65 entonces
+15. 	valor_total <-- total - 0.10
+16. De lo contrario
+17. 	<<"Debe cancelar " + total
+18. FinSi
+19. Fin
