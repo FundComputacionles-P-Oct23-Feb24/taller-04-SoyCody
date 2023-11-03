@@ -14,7 +14,8 @@ Planilla de luz
 13. total <-- costokv*kv
 14. si edad >=65 entonces
 15. 	valor_total <-- total - 0.10
-16. De lo contrario
-17. 	<<"Debe cancelar " + total
-18. FinSi
-19. Fin
+16. 	<<"Debe cancelar " + valor_total
+17. De lo contrario
+18. 	<<"Debe cancelar " + total
+19. FinSi
+20. Fin
