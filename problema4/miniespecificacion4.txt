@@ -1,0 +1,25 @@
+1.  Inicio
+2.  dias, i[0-n]
+3.  precioDiario, d[0-n]
+4.  subtotal, d[0-n]
+5.  descuento, d[0-n]
+6.  montoDescuento, d[0-n]
+7.  total, d[0-n]
+8.  Escribir "Ingrese el número de días a hospedarse"
+9.  Leer dias
+10.  Escribir "Ingrese el precio diario de hospedaje" 
+11. Leer precioDiario
+12. subtotal <-- dias * precioDiario
+13. Si dias >= 15 Entonces
+14.     descuento <-- 0.20
+15. Sino Si dias >= 10 Entonces
+16.     descuento <-- 0.15
+17. Sino Si dias >= 5 Entonces
+18.     descuento <-- 0.10
+19. FinSi
+20. montoDescuento <-- subtotal * descuento
+21. total <-- subtotal - montoDescuento
+22. Escribir "Subtotal por pagar: " + subtotal + " USD"
+23. Escribir "Descuento aplicado: " + (descuento * 100) + "%"
+24. Escribir "Total por pagar: " + total + " USD"
+25. Fin
