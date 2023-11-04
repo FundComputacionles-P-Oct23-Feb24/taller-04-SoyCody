@@ -1,0 +1,15 @@
+1.  Inicio
+2.  gradosCentigrados, d[0-n]
+3.  gradosFarenheit, d[0-n]
+4.  gradosKelvin, d[0-n]
+5.  <<"Ingrese la temperatura en grados Centígrados"
+6.  >>gradosCentigrados
+7.  Si gradosCentigrados <= 100 entonces
+8.  	gradosFarenheit <-- (gradosCentigrados * 9/5) + 32
+9. 	gradosKelvin <-- gradosCentigrados + 273.15
+10. 	<<gradosCentigrados "= " + gradosFarenheit " °F"
+11. 	<<gradosCentigrados "= " + gradosKelvin " K"
+12. De lo contrario
+13. 	<<"Lo sentimos, debe ingresar un valor positivo y menor o igual a 100"
+14. finSi
+15. Fin
